@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.webp">
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+    <div class="search-bar">
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button onclick="fetchWeather()">Search</button>
+    </div>
+    <div id="weatherContainer" class="weather-container"></div>
+    <div id="animationContainer" class="animation-container"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
